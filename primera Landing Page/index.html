@@ -35,7 +35,7 @@
 
     <section class="tarjeta" id="agendar" aria-labelledby="titulo-form">
       <h2 id="titulo-form">Agenda tu cita</h2>
-      <p class="tarjeta__sub">Déjanos tus datos y te confirmamos por teléfono.</p>
+      <p class="tarjeta__sub">Completa tus datos y envíanos tu solicitud por WhatsApp.</p>
 
       <form id="formulario" class="formulario">
         <div class="campo">
@@ -68,12 +68,12 @@
           </div>
         </div>
 
-        <button type="submit" class="boton boton--lleno">Confirmar cita</button>
+        <button type="submit" class="boton boton--lleno">Agendar por WhatsApp</button>
       </form>
 
       <div id="confirmacion" class="confirmacion" hidden>
         <h3>¡Gracias!</h3>
-        <p>Recibimos tu solicitud. Te llamaremos pronto para confirmar tu cita.</p>
+        <p>Se abrió WhatsApp con tu solicitud. Solo presiona enviar y te confirmaremos tu cita.</p>
       </div>
     </section>
   </main>
@@ -86,15 +86,35 @@
   </footer>
 
   <script>
+    // Número de WhatsApp de la clínica (57 = Colombia)
+    const WHATSAPP = '573017602871';
+
     // La fecha mínima para agendar es hoy
     const fecha = document.getElementById('fecha');
     const hoy = new Date();
     hoy.setMinutes(hoy.getMinutes() - hoy.getTimezoneOffset());
     fecha.min = hoy.toISOString().split('T')[0];
 
-    // Por ahora solo muestra la confirmación; falta conectarlo a un servicio de envío
+    // Arma el mensaje con los datos del formulario y abre WhatsApp
     document.getElementById('formulario').addEventListener('submit', function (e) {
       e.preventDefault();
+      const datos = new FormData(this);
+      const [anio, mes, dia] = datos.get('fecha').split('-');
+      const mensaje = [
+        'Hola, Sonrisa Imperial. Quiero agendar una cita.',
+        '',
+        'Nombre: ' + datos.get('nombre'),
+        'Teléfono: ' + datos.get('telefono'),
+        'Correo: ' + datos.get('correo'),
+        'Fecha: ' + dia + '/' + mes + '/' + anio,
+        'Horario: ' + datos.get('hora')
+      ].join('\n');
+
+      const url = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(mensaje);
+      if (!window.open(url, '_blank')) {
+        window.location.href = url;
+      }
+
       this.hidden = true;
       document.getElementById('confirmacion').hidden = false;
     });
