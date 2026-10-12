@@ -1,0 +1,93 @@
+:root {
+  --principal: #14213d;
+  --acento: #b08d57;
+  --texto: #2b2f36;
+  --suave: #6b7280;
+  --fondo: #fafaf8;
+  --borde: #e5e3dd;
+  --blanco: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--texto);
+  background: var(--fondo);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Encabezado */
+.encabezado {
+  border-bottom: 1px solid var(--borde);
+  background: var(--blanco);
+}
+
+.encabezado__fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--principal);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--acento);
+}
+
+/* Contenido */
+.principal {
+  flex: 1;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.etiqueta {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--acento);
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.15;
+  color: var(--principal);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.125rem;
+  color: var(--suave);
+  max-width: 36rem;
+}
+
+/* Pie */
+.pie {
+  border-top: 1px solid var(--borde);
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+  color: var(--suave);
+}
