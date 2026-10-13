@@ -1,0 +1,135 @@
+﻿Tipo;Codigo;Capitulo;Descripcion;Unidad;Cantidad;Precio_unitario_COP;Subtotal_COP;Etapa1_COP;Etapa2_COP
+partida;1.1;1;Descapote y limpieza del lote (210 m2);m2;210;5000;1050000;1050000;0
+partida;1.2;1;Localizacion, trazado y replanteo;m2;150;6000;900000;480000;420000
+partida;1.3;1;Campamento y bodega provisional (caseta, incl. desmonte);gl;1;3000000;3000000;1650000;1350000
+partida;1.4;1;Cerramiento provisional en lamina/polisombra;ml;20;45000;900000;900000;0
+partida;1.5;1;Instalaciones provisionales de agua y energia, incl. consumos de obra;gl;1;2600000;2600000;1430000;1170000
+partida;1.6;1;Valla informativa de licencia;un;1;450000;450000;450000;0
+partida;2.1;2;Excavacion manual para zapatas y vigas de cimentacion;m3;42;48000;2016000;2016000;0
+partida;2.2;2;Cargue y retiro de sobrantes (incl. abundamiento);m3;50;38000;1900000;1900000;0
+partida;2.3;2;Relleno compactado con material seleccionado para elevar NPT +0,40 m y rellenos de zanjas;m3;45;95000;4275000;4275000;0
+partida;3.1;3;Concreto de limpieza 2.000 psi e=5 cm;m2;46;32000;1472000;1472000;0
+partida;3.2;3;Zapatas aisladas concreto 3.000 psi (12 un. aprox. 1,30x1,30x0,35);m3;7,1;820000;5822000;5822000;0
+partida;3.3;3;Vigas de cimentacion 0,30x0,40 concreto 3.000 psi (62 ml);m3;7,44;950000;7068000;7068000;0
+partida;3.4;3;Pedestales y arranques de columnas concreto 3.000 psi;m3;1,1;1150000;1265000;1265000;0
+partida;3.5;3;Acero de refuerzo fy=420 MPa cimentacion (suministro, figurado e instalacion);kg;1540;6900;10626000;10626000;0
+partida;3.6;3;Placa de contrapiso concreto 3.000 psi e=10 cm con malla electrosoldada, sobre polietileno;m2;80;98000;7840000;7840000;0
+partida;3.7;3;Impermeabilizacion de sobrecimientos y vigas (emulsion asfaltica);ml;62;18000;1116000;1116000;0
+partida;4.1;4;Columnas concreto 3.000 psi 0,30x0,30 (1.er piso, con arranques para 2.o piso);m3;3,24;1250000;4050000;4050000;0
+partida;4.2;4;Columnas concreto 3.000 psi 0,30x0,30 (2.o piso);m3;3,13;1250000;3912500;0;3912500
+partida;4.3;4;Losa aligerada de entrepiso e=0,35 m (concreto 3.000 psi, aligerante, formaleta, vigas embebidas);m2;72;255000;18360000;18360000;0
+partida;4.4;4;Escalera en concreto 3.000 psi;m3;2,2;1400000;3080000;3080000;0
+partida;4.5;4;Vigas de amarre y corona de cubierta 0,25x0,30;m3;4,5;1200000;5400000;0;5400000
+partida;4.6;4;Acero de refuerzo fy=420 MPa estructura 1.er piso, losa y escalera;kg;2020;6900;13938000;13938000;0
+partida;4.7;4;Acero de refuerzo fy=420 MPa estructura 2.o piso y vigas de cubierta;kg;1040;6900;7176000;0;7176000
+partida;4.8;4;Columnetas y viguetas de confinamiento de muros (concreto y refuerzo);ml;120;65000;7800000;3900000;3900000
+partida;5.1;5;Muro en bloque de arcilla No. 5 (e=12 cm), pegado con mortero 1:4;m2;282;82000;23124000;11808000;11316000
+partida;5.2;5;Antepechos, culatas y remates de muro;ml;30;45000;1350000;405000;945000
+partida;5.3;5;Alfajias y dinteles prefabricados en ventanas;ml;30;38000;1140000;570000;570000
+partida;6.1;6;Estructura de cubierta en perfiles metalicos PHR C (correas y cerchas), con anticorrosivo;m2;95;75000;7125000;750000;6375000
+partida;6.2;6;Teja termoacustica (tipo sandwich/UPVC) incl. fijaciones;m2;95;95000;9025000;950000;8075000
+partida;6.3;6;Canales y bajantes de aguas lluvias PVC;ml;30;75000;2250000;900000;1350000
+partida;6.4;6;Flanches y remates en lamina galvanizada;ml;25;45000;1125000;337500;787500
+partida;6.5;6;Impermeabilizacion de balcon/terraza y duchas (membrana);m2;25;85000;2125000;850000;1275000
+partida;7.1;7;Punto hidraulico agua fria PVC presion;un;16;190000;3040000;1520000;1520000
+partida;7.2;7;Punto agua caliente CPVC;un;4;230000;920000;230000;690000
+partida;7.3;7;"Punto sanitario PVC (2"", 3"", 4"")";un;16;210000;3360000;1680000;1680000
+partida;7.4;7;"Red de suministro PVC 1/2"" a 1""";ml;60;28000;1680000;1008000;672000
+partida;7.5;7;"Red sanitaria horizontal PVC 4""";ml;35;65000;2275000;2275000;0
+partida;7.6;7;Cajas de inspeccion 60x60 en mamposteria con tapa;un;4;650000;2600000;2600000;0
+partida;7.7;7;Tanque de reserva 1.000 L + equipo de presion (suministro intermitente);gl;1;3800000;3800000;3800000;0
+partida;7.8;7;"Red de aguas lluvias PVC 3""-4"" a cajas";ml;25;45000;1125000;1125000;0
+partida;7.9;7;Acometidas de acueducto y alcantarillado (conexion a red publica, medidor) [B3 prefactibilidad];gl;1;3500000;3500000;3500000;0
+partida;8.1;8;Salida de iluminacion (tuberia PVC, cable, interruptor);un;30;135000;4050000;2025000;2025000
+partida;8.2;8;Salida de tomacorriente doble con polo a tierra;un;40;125000;5000000;2500000;2500000
+partida;8.3;8;Salidas especiales 220 V (estufa, aires acondicionados) y lavadora;un;6;260000;1560000;780000;780000
+partida;8.4;8;Tablero de distribucion 12 circuitos con breakers;un;1;1100000;1100000;1100000;0
+partida;8.5;8;Alimentador desde contador a tablero;ml;25;55000;1375000;1375000;0
+partida;8.6;8;Salidas TV y datos;un;6;110000;660000;330000;330000
+partida;8.7;8;Sistema de puesta a tierra (varilla, soldadura exotermica);gl;1;950000;950000;950000;0
+partida;8.8;8;Luminarias LED de linea media (suministro e instalacion);un;30;55000;1650000;825000;825000
+partida;8.9;8;Red interna de gas natural a estufa y calentador (si hay servicio);gl;1;1200000;1200000;1200000;0
+partida;8.10;8;Inspeccion y certificacion RETIE;gl;1;900000;900000;900000;0
+partida;8.11;8;Acometida y conexion de energia (contador, tramite operador de red) [B3 prefactibilidad];gl;1;2500000;2500000;2500000;0
+partida;9.1;9;Mortero de nivelacion de pisos e=4 cm;m2;150;32000;4800000;2560000;2240000
+partida;9.2;9;Piso en ceramica/porcelanato 60x60 trafico medio;m2;128;92000;11776000;6440000;5336000
+partida;9.3;9;Piso antideslizante en banos, patio de ropas y balcon;m2;22;90000;1980000;900000;1080000
+partida;9.4;9;Guardaescoba ceramico;ml;150;18000;2700000;1350000;1350000
+partida;9.5;9;Enchape de muros en banos y cocina;m2;72;88000;6336000;2534400;3801600
+partida;9.6;9;Enchape de escalera (huella y contrahuella);un;16;120000;1920000;0;1920000
+partida;10.1;10;Puerta principal metalica de seguridad con cerradura;un;1;1600000;1600000;1600000;0
+partida;10.2;10;Puertas interiores en madera entamborada con marco y cerradura;un;8;650000;5200000;1950000;3250000
+partida;10.3;10;Puerta metalica de patio;un;1;950000;950000;950000;0
+partida;10.4;10;Ventaneria en aluminio y vidrio 4-5 mm;m2;22;380000;8360000;3800000;4560000
+partida;10.5;10;Puerta-ventana corrediza en aluminio (balcon);m2;5;450000;2250000;0;2250000
+partida;10.6;10;Rejas de seguridad en ventanas del 1.er piso;m2;10;230000;2300000;2300000;0
+partida;10.7;10;Closets en melamina 15 mm (4 un.);ml;7,2;1050000;7560000;1890000;5670000
+partida;10.8;10;Vestier alcoba principal en melamina;gl;1;2200000;2200000;0;2200000
+partida;10.9;10;Cocina integral (muebles inferior y superior, meson en granito);ml;4;1550000;6200000;6200000;0
+partida;10.10;10;Mueble de lavamanos;un;3;400000;1200000;400000;800000
+partida;10.11;10;Division de ducha en vidrio templado;un;3;800000;2400000;800000;1600000
+partida;10.12;10;Baranda metalica escalera y balcon;ml;12;280000;3360000;0;3360000
+partida;11.1;11;Sanitario linea media;un;3;520000;1560000;520000;1040000
+partida;11.2;11;Lavamanos con griferia;un;3;420000;1260000;420000;840000
+partida;11.3;11;Griferia de ducha mezcladora;un;3;480000;1440000;480000;960000
+partida;11.4;11;Lavaplatos en acero inoxidable con griferia;un;1;650000;650000;650000;0
+partida;11.5;11;Lavadero prefabricado con griferia;un;1;550000;550000;550000;0
+partida;11.6;11;Calentador de paso;un;1;1300000;1300000;1300000;0
+partida;11.7;11;Incrustaciones (juego por bano);un;3;160000;480000;160000;320000
+partida;11.8;11;Rejillas, sifones y llaves terminales;un;9;55000;495000;297000;198000
+partida;12.1;12;Panete liso interior mortero 1:4;m2;420;28000;11760000;6020000;5740000
+partida;12.2;12;Panete exterior impermeabilizado en fachadas;m2;150;34000;5100000;2550000;2550000
+partida;12.3;12;Estuco y pintura vinilo tipo 1 interior (3 manos);m2;420;22000;9240000;4730000;4510000
+partida;12.4;12;Pintura exterior elastomerica en fachadas;m2;150;26000;3900000;1950000;1950000
+partida;12.5;12;Panete, estuco y pintura bajo losa (cielo 1.er piso);m2;72;42000;3024000;3024000;0
+partida;12.6;12;Cielo raso en drywall/PVC bajo cubierta (2.o piso), incl. pintura;m2;72;68000;4896000;0;4896000
+partida;13.1;13;Anden en concreto frente al lote;m2;10,5;85000;892500;892500;0
+partida;13.2;13;Patio duro posterior en concreto escobeado;m2;40;75000;3000000;3000000;0
+partida;13.3;13;Muro de cerramiento posterior/lateral en bloque h=2,5 m, panetado y pintado;m2;60;120000;7200000;7200000;0
+partida;13.4;13;Antejardin y zonas verdes (empradizado, arbustos);m2;15;30000;450000;450000;0
+partida;13.5;13;Drenaje de patio (cunetas y sumideros);ml;20;45000;900000;900000;0
+partida;14.1;14;Aseo general final;m2;150;6000;900000;480000;420000
+partida;14.2;14;Retiro final de escombros;m3;15;45000;675000;405000;270000
+partida;14.3;14;Pruebas de presion y estanqueidad de redes;gl;1;300000;300000;150000;150000
+partida_etapas;E1.1;E1;Impermeabilizacion provisional de la losa de entrepiso usada como cubierta (mortero de pendiente + manto);m2;72;60000;4320000;4320000;0
+partida_etapas;E1.2;E1;Gargolas y bajantes provisionales de la losa;gl;1;800000;800000;800000;0
+partida_etapas;E1.3;E1;Proteccion anticorrosiva de arranques (pelos) de columnas para el 2.o piso;un;12;40000;480000;480000;0
+partida_etapas;E1.4;E1;Cierre provisional del vano de escalera (puerta metalica de acceso a la losa);un;1;900000;900000;900000;0
+partida_etapas;E2.1;E2;Retiro de impermeabilizacion provisional, limpieza de arranques y preparacion de losa;m2;72;15000;1080000;0;1080000
+partida_etapas;E2.2;E2;Proteccion de la vivienda habitada durante la obra (cerramiento de escalera, polisombras, aseo diario);gl;1;1500000;1500000;0;1500000
+partida_etapas;E2.3;E2;Removilizacion de equipos y herramienta (andamios, mezcladora) y menor rendimiento por escala;gl;1;2000000;2000000;0;2000000
+capitulo;1;1;PRELIMINARES;;;;8900000;5960000;2940000
+capitulo;2;2;MOVIMIENTO DE TIERRAS Y EXCAVACIONES;;;;8191000;8191000;0
+capitulo;3;3;CIMENTACION;;;;35209000;35209000;0
+capitulo;4;4;ESTRUCTURA;;;;63716500;43328000;20388500
+capitulo;5;5;MAMPOSTERIA / MUROS;;;;25614000;12783000;12831000
+capitulo;6;6;CUBIERTA E IMPERMEABILIZACION;;;;21650000;3787500;17862500
+capitulo;7;7;INSTALACIONES HIDROSANITARIAS;;;;22300000;17738000;4562000
+capitulo;8;8;INSTALACIONES ELECTRICAS Y ESPECIALES;;;;20945000;14485000;6460000
+capitulo;9;9;PISOS Y REVESTIMIENTOS;;;;29512000;13784400;15727600
+capitulo;10;10;CARPINTERIA (PUERTAS, VENTANAS, CLOSETS, COCINA);;;;43580000;19890000;23690000
+capitulo;11;11;APARATOS SANITARIOS Y GRIFERIAS;;;;7735000;4377000;3358000
+capitulo;12;12;PINTURA Y ACABADOS (PANETES, ESTUCO, CIELOS);;;;37920000;18274000;19646000
+capitulo;13;13;OBRAS EXTERIORES Y PAISAJISMO [B2 prefactibilidad];;;;12442500;12442500;0
+capitulo;14;14;ASEO Y ENTREGA;;;;1875000;1035000;840000
+total;CD;;Costo directo (obra unica);;;;339590000;;
+total;A;;Administracion 8 % s/CD;;;;27167200;;
+total;I;;Imprevistos 5 % s/CD;;;;16979500;;
+total;U;;Utilidad 5 % s/CD;;;;16979500;;
+total;IVA;;IVA 19 % sobre la utilidad;;;;3226105;;
+total;TC;;Valor del contrato de obra (CD + AIU + IVA);;;;403942305;;
+indirecto_propietario;C1;;Levantamiento topografico;;;;1500000;;
+indirecto_propietario;C2;;Estudio de suelos (NSR-10 Titulo H);;;;4000000;;
+indirecto_propietario;C3;;Disenos arquitectonico, estructural, hidrosanitario y electrico RETIE (6 % x $315 M, base prefactibilidad);;;;18900000;;
+indirecto_propietario;C4;;Licencia de construccion, impuesto de delineacion y tramites;;;;4000000;;
+indirecto_propietario;C5;;Interventoria / supervision tecnica (3 % del costo directo);;;;10187700;;
+indirecto_propietario;C7;;Polizas, notariales y escrituracion de la construccion;;;;3000000;;
+total;TP;;Indirectos del propietario;;;;41587700;;
+total;TOTAL;;Costo de construccion total (contrato + indirectos propietario);;;;445530005;;
+indicador;M2;;Costo de construccion total por m2 (150 m2);;;;2970200;;
+etapas;E1CD;;Etapa 1 - costo directo (incl. partidas E1.x);;;;;217784400;
+etapas;E2CD;;Etapa 2 - costo directo (incl. partidas E2.x);;;;;;132885600
+etapas;E1TC;;Etapa 1 - contrato (CD + AIU + IVA);;;;;259054544;
+etapas;E2TC;;Etapa 2 - contrato (CD + AIU + IVA);;;;;;158067421
+etapas;E1T;;Etapa 1 - total con indirectos del propietario;;;;;295988076;
+etapas;E2T;;Etapa 2 - total con indirectos del propietario;;;;;;164553989
